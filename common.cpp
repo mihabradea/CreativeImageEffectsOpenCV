@@ -16,6 +16,7 @@ FileGetter::FileGetter(char* folderin,char* ext){
 	//FindNextFileA(hfind,&found);		
 }
 
+
 int FileGetter::getNextFile(char* fname){
 	if (!hasFiles)
 		return 0;
